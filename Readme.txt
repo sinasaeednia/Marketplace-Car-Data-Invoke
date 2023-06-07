@@ -1,2 +1,0 @@
-This code is a in browser javascript code to extract the facebook market place result and save it in a CSV file in order to use it in a excel based query later on.
-This code saves a sample.txt (a CSV) file and later can be extracted by excel tools. check the /Sample folder.
