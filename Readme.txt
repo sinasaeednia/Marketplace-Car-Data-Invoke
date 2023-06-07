@@ -1,0 +1,1 @@
+This code is an in browser javascript code to extract the facebook market place result and save it in a CSV file in order to use it in a excel based (or Power Queery, or data analysis pipelines) query.
