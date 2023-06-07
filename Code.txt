@@ -1,0 +1,39 @@
+/* Craeting a result container */
+myset = document.getElementsByClassName('x8gbvx8 x78zum5 x1q0g3np x1a02dak x1nhvcw1 x1rdy4ex xcud41i x4vbgl9 x139jcc6');
+
+/* initialization of outpupt */ 
+output = '';
+
+/* Looping through all available results in market place search */
+for (let i=0; i<myset[0].childNodes.length; i++){
+	/* catching errors and jump over errors */ 
+    try {
+	
+	/* assigning current item in result to a variable */
+        var 0a=myset[0].childNodes[i].getElementsByTagName('span')[0].getElementsByTagName('span');
+	
+        price = parseInt(a[1].innerText.replace('C$','').replace(',',''));
+        if (price <3000) { price = price * 4.4};
+        if (isNaN(price)) continue;
+	
+	/* concatenating output for better result in excel */
+        output = output + ''.concat(
+            i,' ',
+            price,' ',
+            parseInt(a[a.length-6].innerText.match(/\d*/)[0])," '",
+            a[a.length-6].innerText.replace(a[a.length-6].innerText.match(/\d*/)[0],'').trim(),"' '",
+            a[a.length-3].innerText.replace(', QC',''),"' ",
+            parseInt(a[a.length-1].innerText.match(/(\d*K*) km/)[1].replace('K','000')))+ '\n' ;
+    } catch(error) {
+        console.log('');
+    }
+};
+
+/* creating and adding an <a> html tag to make the result downloadable */
+const link = document.createElement("a");
+const content = output;
+const file = new Blob([content], { type: 'text/plain' });
+link.href = URL.createObjectURL(file);
+link.download = "sample.txt";
+link.click();
+URL.revokeObjectURL(link.href);
