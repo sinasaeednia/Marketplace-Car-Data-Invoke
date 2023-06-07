@@ -1,0 +1,44 @@
+0 18000 2016 'Toyota rav4' 'Montréal' 149000
+1 21500 2021 'Toyota rav4 le awd' 'Laval' 32000
+2 16500 2013 'Toyota rav4' 'Mascouche' 135000
+3 25495 2017 'Toyota rav4' 'Châteauguay' 59000
+4 12995 2017 'Toyota rav4' 'Montréal' 177000
+5 26500 2017 'Toyota rav4 hybrid' 'Montréal' 128000
+6 19900 2015 'Toyota rav4' 'Montréal' 110000
+7 22500 2017 'Toyota rav4' 'Laval' 105000
+9 23000 2018 'Toyota rav4' 'Montréal' 49000
+10 30000 2019 'Toyota rav4' 'Montréal' 43000
+11 14950 2013 'Toyota rav4' 'Montréal' 146000
+12 19000 2019 'Toyota rav4' 'Laval' 40000
+13 37888 2022 'Toyota rav4 le awd' 'Pointe-Claire' 20000
+14 18500 2016 'Toyota rav4' 'St-Jean-sur-Richelieu' 146000
+15 25800 2018 'Toyota rav4' 'St-Bruno-de-Montarville' 123000
+16 20995 2020 'Toyota rav4' 'Montréal' 42000
+17 24400 2018 'Toyota rav4' 'Montréal' 66000
+18 13.200000000000001 2017 'Toyota rav4' 'Montréal' 80000
+19 11495 2015 'Toyota rav4' 'Montréal' 112000
+20 29995 2019 'Toyota rav4' 'Salaberry-de-Valleyfield' 72000
+21 24000 2016 'Toyota rav4' 'Terrebonne' 145000
+22 20995 2015 'Toyota rav4' 'Montréal' 110000
+23 21994 2017 'Toyota rav4 LE' 'Montréal' 110000
+25 31995 2019 'Toyota rav4 le awd' 'Montréal' 22000
+26 44995 2022 'Toyota rav4 trail' 'Montréal' 28000
+27 24000 2017 'Toyota rav4' 'St-Constant' 72000
+28 16100 2014 'Toyota rav4' 'Montréal' 128000
+29 13500 2013 'Toyota rav4' 'Châteauguay' 201000
+31 31950 2019 'Toyota rav4' 'Montréal' 66000
+32 21995 2016 'Toyota rav4' 'Montréal' 170000
+33 31299 2018 'Toyota rav4' 'Baie-D'Urfé' 88000
+34 38500 2020 'Toyota rav4' 'Brossard' 64000
+35 26990 2017 'Toyota rav4 XLE' 'St-Eustache' 106000
+36 35000 2022 'Toyota rav4' 'Laval' 84000
+37 52995 2021 'Toyota rav4 prime xse' 'Montréal' 55000
+38 31888 2019 'Toyota rav4' 'Montréal' 52000
+39 14800 2013 'Toyota all wheel drive matrix low km' 'Montréal' 82000
+40 25995 2021 'Toyota rav4' 'Montréal' 229000
+41 21484 2016 'Toyota rav4' 'Montréal' 111000
+42 13499 2016 'Toyota rav4' 'Laval' 172000
+43 34990 2019 'Toyota rav4 hybrid' 'Longueuil' 69000
+44 33888 2020 'Toyota rav4' 'St-Eustache' 46000
+45 17995 2016 'Toyota rav4' 'Montréal' 236000
+46 33995 2020 'Toyota rav4' 'St-Basile-le-Grand' 31000

@@ -10,7 +10,7 @@ for (let i=0; i<myset[0].childNodes.length; i++){
     try {
 	
 	/* assigning current item in result to a variable */
-        var 0a=myset[0].childNodes[i].getElementsByTagName('span')[0].getElementsByTagName('span');
+        var a=myset[0].childNodes[i].getElementsByTagName('span')[0].getElementsByTagName('span');
 	
         price = parseInt(a[1].innerText.replace('C$','').replace(',',''));
         if (price <3000) { price = price * 4.4};
