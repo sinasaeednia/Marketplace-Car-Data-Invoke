@@ -21,7 +21,7 @@ for (let i = 0; i < results[0].childNodes.length; i++) {
     }
     
     // Concatenating output for better results in Excel
-    output += `${i} ${price} ${parseInt(item[item.length - 6].innerText.match(/\d*/)[0])}' '${item[item.length - 6].innerText.replace(item[item.length - 6].innerText.match(/\d*/)[0], '').trim()}' '${item[item.length - 3].innerText.replace(', QC', '')}' ${parseInt(item[item.length - 1].innerText.match(/(\d*K*) km/)[1].replace('K', '000'))}\n`;
+    output += `${i} ${price} ${parseInt(item[item.length - 6].innerText.match(/\d*/)[0])} '${item[item.length - 6].innerText.replace(item[item.length - 6].innerText.match(/\d*/)[0], '').trim()}' '${item[item.length - 3].innerText.replace(', QC', '')}' ${parseInt(item[item.length - 1].innerText.match(/(\d*K*) km/)[1].replace('K', '000'))}\n`;
   } catch (error) {
     console.log('');
   }
